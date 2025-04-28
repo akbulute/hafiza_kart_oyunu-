@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(193, 143, 26);
+
+    }
+    h2 {
+        color: azure;
+        text-align: center;
+    }
+    #oyun-alani {
+        display: grid;
+        grid-template-columns: repeat(6, 80px);
+        gap: 15px;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    .kart {
+        width: 80px;
+        height: 80px;
+        background-color: lightblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        cursor: pointer;
+        border-radius: 8px;
+        user-select: none;
+    }
+    @media (max-width: 400px){
+        #oyun-alani {
+            
+            grid-template-columns: repeat(4, 80px);
+           
+        }
+    
+    }
+</style>
+<body>
+    <h2>Hafıza Kart Oyunu</h2>
+
+    <div id="oyun-alani">
+
+    </div>
+
+    <script src="Hafizakartoyunu.js"></script>
+</body>
+</html>
