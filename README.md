@@ -2,6 +2,7 @@ Hafıza Kart Oyunu - JavaScript
 
 Bu küçük proje, temel JavaScript bilgileri kullanılarak geliştirilmiş bir hafıza kart eşleştirme oyunudur.
 
+
 Kullanılan Bilgiler:
 
 createElement, appendChild, forEach, addEventListener gibi temel DOM işlemleri
@@ -15,6 +16,7 @@ setTimeout ile zaman gecikmesi kullanımı
 Algoritma mantığı: Kartları karıştırmak, tıklamaları yönetmek, eşleşmeleri kontrol etmek
 
 Kilit sistemi (hızlı tıklamaları önlemek için kartlarKilitli değişkeni ile kontrol sağlandı)
+
 
 Oyunun Akışı:
 
